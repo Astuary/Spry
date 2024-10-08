@@ -1191,7 +1191,7 @@ if __name__  == '__main__':
         #         # padding_side = "right",
         #         # pad_token = "[PAD]",
         #         # padding_side = "left",
-        #         token='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',
+        #         token='hf_',
         #         )
         #     tokenizer.pad_token_id = 32000 # tokenizer.eos_token_id
         #     tokenizer.pad_token = '<pad>' # tokenizer.eos_token
@@ -1208,7 +1208,7 @@ if __name__  == '__main__':
             #         model_name, 
             #         num_labels=num_labels,
             #         cache_dir = './models',
-            #         token='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',
+            #         token='hf_',
             #         quantization_config=quantization_config,
             #         attn_implementation="eager",
             #         # load_in_4bit=True,
